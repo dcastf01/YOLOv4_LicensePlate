@@ -14,10 +14,10 @@ rm -r OID/Dataset/validation/Vehicle registration plate/Label/
 
 cd ..
 #move dataset out
-!mkdir data
-!cp /content/OIDv4_ToolKit/OID/Dataset/train -r /content/data
-!cp /content/OIDv4_ToolKit/OID/Dataset/validation -r /content/data
-!rm -rf OIDv4_ToolKit
+mkdir data
+cp /content/OIDv4_ToolKit/OID/Dataset/train -r /content/data
+cp /content/OIDv4_ToolKit/OID/Dataset/validation -r /content/data
+rm -rf OIDv4_ToolKit
 
 
 # clone darknet repo
