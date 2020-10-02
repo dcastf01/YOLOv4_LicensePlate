@@ -33,7 +33,7 @@ cd darknet
 mkdir data
 cp /content/OIDv4_ToolKit/OID/Dataset/train -r /content/darknet/data
 cp /content/OIDv4_ToolKit/OID/Dataset/validation -r /content/darknet/data
-rm -rf OIDv4_ToolKit
+rm -rf /content/OIDv4_ToolKit
 
 
 mv /content/darknet/data/train /content/darknet/data/obj
