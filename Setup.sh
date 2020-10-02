@@ -35,10 +35,15 @@ make
 cd ..
 mkdir backup
 
-#Set files of configurations
+
 mv /content/data/train /content/data/obj
 mv /content/data/validation /content/data/test
 
+#Set files of configurations
 cp /content/YOLOv4_LicensePlate/yolov4/yolov4-obj.cfg ./cfg
 cp /content/YOLOv4_LicensePlate/yolov4/obj.names ./data
 cp /content/YOLOv4_LicensePlate/yolov4/obj.data  ./data
+
+# upload the generate_train.py and generate_test.py script to cloud VM from Google Drive
+cp /content/YOLOv4_LicensePlate/yolov4/generate_train.py ./
+cp /content/YOLOv4_LicensePlate/yolov4/generate_test.py ./
