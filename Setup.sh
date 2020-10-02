@@ -56,3 +56,5 @@ cp /content/YOLOv4_LicensePlate/yolov4/generate_test.py ./
 #create txt file with path of files to use in  train and test
 python generate_train.py
 python generate_test.py
+
+wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137
