@@ -47,3 +47,7 @@ cp /content/YOLOv4_LicensePlate/yolov4/obj.data  ./data
 # upload the generate_train.py and generate_test.py script to cloud VM from Google Drive
 cp /content/YOLOv4_LicensePlate/yolov4/generate_train.py ./
 cp /content/YOLOv4_LicensePlate/yolov4/generate_test.py ./
+
+#create txt file with path of files to use in  train and test
+python generate_train.py
+python generate_test.py
