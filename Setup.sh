@@ -19,8 +19,8 @@ cd OIDv4_ToolKit/
 
 pip install -r requirements.txt
 
-python main.py downloader --classes 'Vehicle registration plate' --type_csv train --limit 10 -y
-python main.py downloader --classes 'Vehicle registration plate' --type_csv validation --limit 3 -y
+python main.py downloader --classes 'Vehicle registration plate' --type_csv train --limit 3000 -y
+python main.py downloader --classes 'Vehicle registration plate' --type_csv validation --limit 1000 -y
 
 python convert_annotations.py
 
