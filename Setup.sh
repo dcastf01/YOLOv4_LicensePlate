@@ -33,3 +33,4 @@ sed -i 's/CUDNN_HALF=0/CUDNN_HALF=1/' Makefile
 make
 
 cd ..
+mkdir backup
