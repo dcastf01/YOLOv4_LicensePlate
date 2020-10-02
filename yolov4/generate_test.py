@@ -9,7 +9,7 @@ for folder in os.listdir(os.getcwd()):
           image_files.append("data/test/" + filename)
   os.chdir("..")
 os.chdir("..")
-with open("train.txt", "w") as outfile:
+with open("test.txt", "w") as outfile:
     for image in image_files:
         outfile.write(image)
         outfile.write("\n")
