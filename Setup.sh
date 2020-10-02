@@ -34,3 +34,9 @@ make
 
 cd ..
 mkdir backup
+
+#Set files of configurations
+
+cp /content/YOLOv4_LicensePlate/yolov4/yolov4-obj.cfg ./cfg
+cp /content/YOLOv4_LicensePlate/yolov4/obj.names ./data
+cp /content/YOLOv4_LicensePlate/yolov4/obj.data  ./data
