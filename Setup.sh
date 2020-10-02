@@ -40,7 +40,7 @@ mv /content/data/train /content/data/obj
 mv /content/data/validation /content/data/test
 
 #Set files of configurations
-cp /content/YOLOv4_LicensePlate/yolov4/yolov4-obj.cfg ./cfg
+cp /content/YOLOv4_LicensePlate/yolov4/yolov4-obj.cfg darknet/cfg
 cp /content/YOLOv4_LicensePlate/yolov4/obj.names ./data
 cp /content/YOLOv4_LicensePlate/yolov4/obj.data  ./data
 
